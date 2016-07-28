@@ -1,0 +1,240 @@
+
+header {
+  font-weight: bold;
+  font-size: 5;
+  background-color: white;
+  padding: 1%;
+ 
+}
+#top
+{
+
+  background-color: lightblue;
+  width: auto;
+  border-style: solid;
+}
+h1 {
+    display: inline;
+    position: relative;
+    left: 40px;
+    background-color: #4aaaa5;
+    padding-bottom:30px;
+    padding-top: 15px;
+    color: white;
+}
+
+h1 li {
+  display: inline;
+  list-style: none;
+}
+li {
+  display: inline;
+  list-style: none;
+  float: right;
+  position: relative;
+  right: 90px;
+  bottom: 45px;
+  padding: 10px;
+}
+a{
+text-decoration: none;
+color: grey;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+#message{
+
+  line-height: 40px;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+
+}
+
+#submit:hover {
+    color:  #00FA9A;
+}
+a:visited {
+    color: green;
+}
+
+
+
+a:hover {
+    color:  #00FA9A;
+}
+
+a:active {
+    color: blue;
+}
+
+
+body {
+    background-image: url(cork-wallet.png);
+}
+
+
+
+h3 {
+  color: #4aaaa5;
+  border-style: none;
+}
+
+section {
+
+
+
+    font-family: verdana;
+    font-size: 12px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+  text-align: justify;
+
+  
+
+
+}
+
+img{
+  float: left;
+padding: 5px;
+}
+
+
+#A {
+ 
+  padding: 10px 10px 50px 20px ;
+    margin: 10px 600px 100px 80px;
+    float: right;
+    font-color: #4aaaa5;
+    
+
+}
+
+
+#B {
+
+height: 20px;
+padding: 20px;
+padding-bottom: 50px;
+width: 300px;
+float: right;
+position: relative;
+right: 100px;
+bottom: 475px;
+color: #4aaaa5;
+}
+
+#C {
+  background-color: #4aaaa5;
+height: 20px;
+clear:both;}
+
+
+
+   
+footer {
+
+
+  font-weight: bold;
+  font-size: 5;
+  background-color: white;
+  text-align: center;
+  padding: 30px;
+clear: all;
+background-color: #666666
+}
+
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 380px;
+    margin-bottom: 80px;
+    background-color: lightgrey;
+    position:relative;
+    left: 80px;
+    top: 40px;
+}
+
+.flex-item {
+    background-color: #4aaaa5;
+    color: white;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+@media only screen and (max-width: 980px) {
+.container{
+  width: 980px;
+}
+#A {
+  
+  width: 100%;
+  float:none;
+  display: block;
+}
+
+#B{
+   width: 100%;
+  float:bottom;
+  display: block;
+}
+}
+
+@media only screen and (max-width: 768px) {
+.container{
+  width: 980px;
+}
+#A {
+  
+  width: 100%;
+  float:none;
+  display: block;
+}
+
+#B{
+   width: 100%;
+  float:bottom;
+  display: block;
+}
+}
+
+@media only screen and (max-width: 640px) {
+.container{
+  width: 980px;
+}
+#A {
+  
+  width: 100%;
+  float:none;
+  display: block;
+}
+
+#B{
+   width: 100%;
+  float:bottom;
+  display: block;
+}
+}
